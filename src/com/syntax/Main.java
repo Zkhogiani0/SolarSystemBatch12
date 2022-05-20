@@ -10,5 +10,11 @@ public class Main {
         FactorX.Star="2";
         FactorX.Planet="10000";
 
+        // adding more features to our sun
+        FeatureSun Xfact = new FeatureSun();
+        Xfact.color = "green";
+        Xfact.radius= "1000000km";
+        Xfact.heat="30254565465454j";
+
     }
 }
